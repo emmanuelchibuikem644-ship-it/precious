@@ -1,0 +1,20 @@
+# Core libraries
+numpy>=1.24
+opencv-python>=4.8
+Pillow>=10.0
+bcrypt>=4.0
+cryptography>=41.0
+reportlab>=4.0
+
+# Face recognition. On Windows (and anywhere without a C++ compiler) use the pre-built dlib wheel:
+#     pip install dlib-bin face_recognition_models
+#     pip install --no-deps face_recognition
+# On Linux with CMake and a C++ compiler the usual route also works:
+#     pip install dlib face_recognition
+dlib-bin>=19.24
+face_recognition_models
+
+# Only needed to run the automated tests
+pytest>=8.0
+scikit-image>=0.22
+matplotlib>=3.8

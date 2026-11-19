@@ -1,0 +1,20 @@
+======================================================================================
+ROBUSTNESS EXPERIMENT   tolerance = 0.60   detection scale = 0.5
+======================================================================================
+Probe condition                            Faces  Distance   Decision
+--------------------------------------------------------------------------------------
+Enrolment photograph itself                    1     0.000   Recognised
+Dim lighting (brightness x0.50)                1     0.101   Recognised
+Very dim lighting (brightness x0.25)           1     0.169   Recognised
+Bright lighting (brightness x1.50)             1     0.146   Recognised
+Low contrast (x0.50)                           1     0.132   Recognised
+Out-of-focus (Gaussian blur, sigma 2)          1     0.205   Recognised
+Sensor noise (sigma 15)                        1     0.117   Recognised
+Heavy JPEG compression (quality 20)            1     0.099   Recognised
+Head tilted 10 degrees                         1     0.096   Recognised
+Head tilted 25 degrees                         1     0.089   Recognised
+Subject further away (scale 0.85)              1     0.102   Recognised
+Subject much further away (scale 0.60)         1     0.071   Recognised
+Lower face covered (mask-like)                 0         -   not detected
+Different person (impostor)                    1     0.693   Rejected (unknown)
+======================================================================================
